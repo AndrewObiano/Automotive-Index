@@ -23,9 +23,6 @@ FROM car_models
 WHERE year = 2010;
 -- 64.532ms
 
-CREATE INDEX make_model_title
-ON car_models (make_title, model_title);
-
 CREATE INDEX make_model_code
 ON car_models (make_code, model_code);
 
